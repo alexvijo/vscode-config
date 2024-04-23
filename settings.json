@@ -1,0 +1,50 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "java.semanticHighlighting.enabled": true,
+    "mssql.enableQueryHistoryCapture": true,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "json": false
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "false",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.largeFileOptimizations": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "boot-java.rewrite.reconcile": true,
+    "gitlens.views.commitDetails.files.layout": "list",
+    "tabnine.experimentalAutoImports": true,
+    "java.project.referencedLibraries": [
+    
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "CodeGPT.model": "gpt-4",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-oracle",
+    "redhat.telemetry.enabled": true
+}
